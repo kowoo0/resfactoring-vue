@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img class="card-img-top" src="" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/git-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
               <h5 class="card-title">Git & Github</h5>
               <p class="card-text">협업 프로젝트를 위한 Git, Github를 살펴봐요!</p>
@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img class="card-img-top" src="" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/designpattern-back.png" alt="" width="100%" height="190">
             <div class="card-body">
               <h5 class="card-title">디자인 패턴</h5>
               <p class="card-text">효율적인 코딩을 위해 나타난 여러 디자인 패턴을 알아봅니다!</p>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img class="card-img-top" src="" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/hackathon-back.png" alt="" width="100%" height="190">
             <div class="card-body">
               <h5 class="card-title">각종 대회</h5>
               <p class="card-text">해커톤, 알고리즘 대회, 교내 경진대회의 적극적인 참여를 추천해요!</p>
@@ -39,7 +39,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/latest-1-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
               <h5 class="card-title">최신 기술스택</h5>
               <p class="card-text">정신없이 쏟아져 나오는 최신 기술들.. 중요 키워드를 통해 핵심적인 내용을 캐치해요! </p>
@@ -48,7 +48,7 @@
         </div>
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/sharing-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
               <h5 class="card-title">다양한 정보공유</h5>
               <p class="card-text">컨퍼런스 및 세미나 행사, 오픈소스 경험, 학습 사이트, 검색 팁 등 다양한 정보를 공유하며 서로 도움을 주고 받아요!</p>

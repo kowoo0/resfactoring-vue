@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="syubamboo">
   <div class="syubamboo-header">
     <h2>울창한 대나무숲</h2>
   </div>

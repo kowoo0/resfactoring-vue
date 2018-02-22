@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="syubot">
   <div class="syubot-header">
     <h2>너와 나의 친구, 삼육봇</h2>
   </div>
