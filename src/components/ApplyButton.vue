@@ -32,7 +32,6 @@ export default {
   border: 1px solid #eaeaea;
   border-radius: 2px;
   background-color: #fff;
-  color: #7147bc;
   line-height: 40px;
   font-size: 17px;
   font-weight: 600;
@@ -41,8 +40,9 @@ export default {
 .apply-img {
   float: left;
 }
-.apply-btn:nth-of-type(2) .apply-txt {
+.apply-txt {
   color: #000;
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {

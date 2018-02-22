@@ -1,15 +1,15 @@
 <template>
 <section id="activity">
   <div class="activity-body">
-    <div class="container">
-      <button type="button" class="btn btn-link">
-        <router-link v-bind:to="{name:'syubot'}">삼육봇</router-link>
+    <div class="container btn-box">
+      <button type="button" class="btn btn-link btn-custom">
+        <router-link v-bind:to="{name:'syubot'}">#삼육봇</router-link>
       </button>
-      <button type="button" class="btn btn-link">
-        <router-link v-bind:to="{name:'syubamboo'}">울창한대나무숲</router-link>
+      <button type="button" class="btn btn-link btn-custom">
+        <router-link v-bind:to="{name:'syubamboo'}">#울창한대나무숲</router-link>
       </button>
-      <button type="button" class="btn btn-link">
-        <router-link v-bind:to="{name:'seminar'}">그외 활동들</router-link>
+      <button type="button" class="btn btn-link btn-custom">
+        <router-link v-bind:to="{name:'seminar'}">#그외 활동들</router-link>
       </button>
     </div>
     <div class="container">
@@ -52,11 +52,17 @@ export default {
 <style scoped>
 #activity {
   width: 100%;
-  height: 100vh;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 .activity-content {
   padding: 10px;
   overflow: hidden;
+}
+
+.btn-box { padding: 0 0 20px 0; }
+.btn-custom > a {
+  color: #42b983;
+  font-weight: 600;
+
 }
 </style>

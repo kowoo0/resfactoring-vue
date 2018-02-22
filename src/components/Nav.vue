@@ -1,7 +1,7 @@
 <template>
-<nav class="navbar fixed-top navbar-expand-md navbar-light">
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="#intro" @click="jumpToHome">
-        <img src="../assets/brand/resfactoring_icon.svg" width="38" height="38" alt="" />    
+        <img src="../assets/brand/resfactoring_icon.svg" width="32" height="32" alt="" />    
         <span class="brand-name d-inline-block align-middle">리스펙토링</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -119,7 +119,7 @@ export default {
 }
 .navbar-light .navbar-nav .active>.nav-link { color: #42b983; }
 .brand-name {
-    font-size: 1.24rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #2c3e50;
 }

@@ -19,7 +19,7 @@ export default {
 <style scoped>
 footer {
   width: 100%;
-  height: 150px;
+  height: 20px;
   background: darkturquoise;
   opacity: 0.9;
 }

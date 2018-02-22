@@ -1,7 +1,7 @@
 <template>
 <section id="programme">
   <div class="container">
-    <h2 class="programme-header">주로 이런걸 해요! (한 달에 한번 세미나 진행방식)</h2>
+    <h2 class="programme-header">주로 이런걸 해요!</h2>
     
     <div class="card-floor">
       <div class="row">
@@ -58,6 +58,8 @@
       </div>
     </div>
 
+    <h4 class="programme-footer">#세미나는 한 달에 한번씩 진행</h4>
+
   </div>
 </section>
 </template>
@@ -82,6 +84,11 @@ export default {
 .programme-header {
   padding-top: 30px;
   padding-left: 10px;
+}
+.programme-footer {
+  margin-top: 20px;
+  padding-left: 10px;
+  color: #42b983;
 }
 
 .card-floor {
@@ -120,5 +127,8 @@ export default {
 .card-body {
   color: #000;
   opacity: 0.7;
+}
+.card-title {
+  font-weight: 600;
 }
 </style>
