@@ -25,8 +25,9 @@ export default {
 
 <style scoped>
 .vue-typer {
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.8;
+  letter-spacing: 0.3rem;
 }
 
 @media (min-width: 0px) {

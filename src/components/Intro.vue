@@ -58,17 +58,19 @@ export default {
   vertical-align: middle;
 }
 .intro-text {
-  font-weight: 800;
-
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   transition: 0.3s linear;
+  letter-spacing: 1rem;
 }
 .intro-ads {
   margin-top: 120px;
 }
 .static-text {
-  font-weight: 600;
+  font-weight: 500;
   color: aquamarine;
+  letter-spacing: 0.1rem;
 }
 @media (min-width: 0px) {
   .static-text { font-size: 1.2rem; }
