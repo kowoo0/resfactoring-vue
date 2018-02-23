@@ -6,7 +6,7 @@
     <Programme/>
     <Activity/>
     <Apply/>
-    <Footer/>
+    <Footer/> 
   </div>
 </template>
 
@@ -42,6 +42,21 @@ h2 { font-weight: 500; }
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+
+/* .next-btn {
+  position: fixed;
+  bottom: -100px; right: 30px;
+  width: 70px; height: 70px;
+  background: #0bee88;
+
+  border-radius: 50%;
+
+  transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+
+  -moz-box-shadow:    0px 4px 9px -2px gray;
+  -webkit-box-shadow: 0px 4px 9px -2px gray;
+  box-shadow: 0px 4px 9px -2px gray;
+} */
 
 @media (min-width: 0px) {
   h1 { font-size: 2.5rem; }

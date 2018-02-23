@@ -73,11 +73,13 @@ export default {
   letter-spacing: 0.1rem;
 }
 @media (min-width: 0px) {
+  .intro-text { letter-spacing: 0.1rem; }
   .static-text { font-size: 1.2rem; }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+  .intro-text { letter-spacing: 0.2rem; }
   .static-text { font-size: 1.5rem; }
 }
 

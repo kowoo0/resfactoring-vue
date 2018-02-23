@@ -61,7 +61,7 @@ export default {
 @media (max-width: 768px) {
   .apply-btn-wrapper { margin-top: 0px; }
   .apply-btn:nth-of-type(1) {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .apply-btn:nth-of-type(2) {
     margin-top: 20px;

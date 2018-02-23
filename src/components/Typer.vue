@@ -31,12 +31,12 @@ export default {
 }
 
 @media (min-width: 0px) {
-  .vue-typer { font-size: 1.2rem; }
+  .vue-typer { font-size: 1.2rem; letter-spacing: 0.1rem; }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  .vue-typer { font-size: 1.5rem; }
+  .vue-typer { font-size: 1.5rem; letter-spacing: 0.2rem; }
 }
 
 /* Medium devices (tablets, 768px and up) */
