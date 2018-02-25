@@ -90,6 +90,7 @@ export default {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .intro-text { letter-spacing: 1rem; }
   .static-text { font-size: 2.1rem; }
 }
 

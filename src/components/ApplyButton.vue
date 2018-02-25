@@ -60,12 +60,20 @@ export default {
 
 @media (max-width: 768px) {
   .apply-btn-wrapper { margin-top: 0px; }
+  .apply-btn {
+    padding: 8px;
+    width: 120px;
+    height: 38px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+  }
   .apply-btn:nth-of-type(1) {
     margin-top: 30px;
   }
   .apply-btn:nth-of-type(2) {
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 5px;
   }
 }
 </style>
