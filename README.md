@@ -1,6 +1,6 @@
 # resfactoring-vue
 
-> A Vue.js project
+> https://resfactoring.herokuapp.com
 
 ## Build Setup
 
