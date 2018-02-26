@@ -3,7 +3,7 @@
   <div class="intro-cover-dark"></div>
   <div class="intro-body">
     <div class="container-fluid">
-      <h1 class="intro-text">RESFACTORING</h1>
+      <h1 class="intro-text" data-aos="zoom-in" data-aos-duration="1000">RESFACTORING</h1>
       <span class="static-text">We always wonder </span>
       <Typer/>
       <ApplyButton/>
@@ -29,6 +29,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
 #intro {
   position: relative;
 
@@ -36,11 +38,12 @@ export default {
   width: 100%;
   height: 100vh;
   
-  background: url(../assets/intro/introback.jpg);
+  /* background: url(../assets/intro/introback.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
+  background-repeat: no-repeat; */
+  background: url(../assets/intro/introback.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;
+  
   text-align: center;
 }
 .intro-cover-dark {
@@ -59,7 +62,7 @@ export default {
 }
 .intro-text {
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fredoka One', cursive;
   color: #fff;
   transition: 0.3s linear;
   letter-spacing: 1rem;
@@ -70,7 +73,7 @@ export default {
 .static-text {
   font-weight: 500;
   color: aquamarine;
-  letter-spacing: 0.1rem;
+  font-family: 'Fredoka One', cursive;
 }
 @media (min-width: 0px) {
   .intro-text { letter-spacing: 0.1rem; }

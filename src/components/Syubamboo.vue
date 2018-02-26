@@ -1,16 +1,16 @@
 <template>
 <div class="syubamboo">
-  <div class="syubamboo-header">
+  <div class="syubamboo-header" data-aos="fade-down" data-aos-duration="800">
     <h2>울창한 대나무숲</h2>
   </div>
-  <div class="mobile-frame">
+  <div class="mobile-frame" data-aos="fade-right" data-aos-duration="800">
     <div class="out-frame">
       <div class="in-frame">
         <img src="../assets/activity/syubamboo.png" width="100%" height="100%" />
       </div>
     </div>
   </div>
-  <div class="syubamboo-intro">
+  <div class="syubamboo-intro" data-aos="fade-left" data-aos-duration="800">
     <h4>삼육대학교의 다양한 커뮤니티사이트들의 글을 한눈에 볼 수 있는 웹 애플리케이션</h4>
     <h5>교내 프로젝트 경진대회에 출전해 우수상을 탔습니다!!</h5>
     <h6>아래 링크를 통해 개발 이야기를 더 살펴보세요</h6>

@@ -24,8 +24,11 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
 .vue-typer {
   font-weight: 500;
+  font-family: 'Fredoka One', cursive;
   opacity: 0.8;
   letter-spacing: 0.3rem;
 }

@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
 .apply-btn-wrapper {
   margin-top: 80px;
   padding: 5px 20px;  
@@ -35,7 +37,8 @@ export default {
   background-color: #fff;
   line-height: 40px;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Fredoka One', cursive;
   color: #343a40;
   letter-spacing: 1px;
   border-radius: 10px;
@@ -66,7 +69,7 @@ export default {
     height: 38px;
     line-height: 20px;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
   }
   .apply-btn:nth-of-type(1) {
     margin-top: 30px;

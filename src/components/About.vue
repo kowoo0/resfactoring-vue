@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="about-article">
+          <div class="about-article" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="about-header">리펙은?</h1>
             <p><strong>안녕하세요!</strong> 36 개발자 커뮤니티 리스펙토링입니다!</p>
             <p>리펙은 멤버들이 학교 커리큘럼에서 얻기 힘든 <strong>정보를 공유</strong>하고, <strong>다양한 활동</strong>들을 통해 경험을 채워 좀 더 나은 개발자가 되는 것을 지향합니다.</p>              
@@ -12,12 +12,12 @@
             <p>활동은 1년 단위로 <strong>학기 중에 집중</strong>합니다. 매달 특정 주제를 갖고 세미나를 진행(Required)하며, 스터디 모임 또한 진행(Optional)합니다.</p>
             <p>N기는 N+1기가 자리잡고 성장할 수 있도록 함께하고자 합니다. 따라서 RECRUITING에서 열정있는 1,2,3학년분들을 특히 환영합니다! 후배들을 좋은 개발자로 이끌어줄 4학년도 환영해요!</p>
             <hr />
-            <h5>Respect & Refactoring</h5>
+            <h5 class="about-footer">Respect & Refactoring</h5>
           </div>
         </div>
         <div class="col-md-6">
           <div class="about-article">
-            <div class="about-article-list">
+            <div class="about-article-list" data-aos="fade-left" data-aos-duration="800">
               <div class="about-article-item">
                 <img class="about-article-img" src="../assets/about/passion.png" width="70" height="70" alt=""/>
                 <div class="about-article-textbox">
@@ -61,11 +61,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
 #about {
   display: table;
   padding-top: 100px;
   width: 100%;
   height: 100vh;
+
+  font-family: 'Jeju Hallasan', cursive;
 }
 .about-body {
   display: table-cell;
@@ -74,9 +78,6 @@ export default {
 .about-article {
   padding: 16px 5px;
   width: 100%;
-}
-.about-article-list {
-
 }
 .about-article-item {
   display: grid;
@@ -103,9 +104,14 @@ export default {
 }
 .about-header {
   margin-bottom: 30px;
+
+  font-family: 'Nanum Pen Script', cursive;
 }
 .about-article-header { margin-bottom: 12px; }
 .about-article-text { margin-bottom: 10px; font-weight: 500; color: darkgray; }
+
+.about-footer { font-family: 'Nanum Pen Script', cursive; }
+
 
 .col-md-6:nth-of-type(2) {
 }

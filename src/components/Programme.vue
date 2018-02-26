@@ -1,11 +1,11 @@
 <template>
 <section id="programme">
   <div class="container">
-    <h2 class="programme-header">주로 이런걸 해요!</h2>
+    <h1 class="programme-header">주로 이런걸 해요!</h1>
     
     <div class="card-floor">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up">
           <div class="card">
             <img class="card-img-top" src="../assets/programme/git-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
@@ -14,7 +14,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up">
           <div class="card">
             <img class="card-img-top" src="../assets/programme/designpattern-back.png" alt="" width="100%" height="190">
             <div class="card-body">
@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up">
           <div class="card">
             <img class="card-img-top" src="../assets/programme/hackathon-back.png" alt="" width="100%" height="190">
             <div class="card-body">
@@ -37,7 +37,7 @@
 
     <div class="card-floor">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up">
           <div class="card">
             <img class="card-img-top" src="../assets/programme/latest-1-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up">
           <div class="card">
             <img class="card-img-top" src="../assets/programme/sharing-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
@@ -84,6 +84,7 @@ export default {
 .programme-header {
   padding-top: 30px;
   padding-left: 10px;
+  font-family: 'Nanum Pen Script', cursive;
 }
 .programme-footer {
   margin-top: 20px;

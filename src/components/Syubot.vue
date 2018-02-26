@@ -1,16 +1,16 @@
 <template>
 <div class="syubot">
-  <div class="syubot-header">
+  <div class="syubot-header" data-aos="fade-down" data-aos-duration="800">
     <h2>너와 나의 친구, 삼육봇</h2>
   </div>
-  <div class="mobile-frame">
+  <div class="mobile-frame" data-aos="fade-right" data-aos-duration="800">
     <div class="out-frame">
       <div class="in-frame">
         <img src="../assets/activity/syubot.png" width="100%" height="100%" />
       </div>
     </div>
   </div>
-  <div class="syubot-intro">
+  <div class="syubot-intro" data-aos="fade-left" data-aos-duration="800">
     <h4>학교의 다양한 정보를 빠르게 얻을 수 있는 챗봇</h4>
     <h5>MVP 챌린지로 시작한 프로젝트가 현재 이용자 수는 무려 800명 가까이!!!</h5>
     <h6>아래 링크를 통해 개발 이야기를 더 살펴보세요</h6>
@@ -78,6 +78,10 @@ export default {
   margin-top: 30px;
   margin-bottom: 30px;
   color: darkgrey;
+}
+.btn {
+  background-color: gold;
+  border-color: gold;
 }
 
 
