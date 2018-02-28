@@ -130,6 +130,6 @@ export default {
   opacity: 0.7;
 }
 .card-title {
-  font-weight: 600;
+  font-weight: bold;
 }
 </style>

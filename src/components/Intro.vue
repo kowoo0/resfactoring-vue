@@ -38,11 +38,10 @@ export default {
   width: 100%;
   height: 100vh;
   
-  /* background: url(../assets/intro/introback.jpg);
+  background: url(../assets/intro/introback.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
-  background: url(../assets/intro/introback.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;
+  background-repeat: no-repeat;
   
   text-align: center;
 }
