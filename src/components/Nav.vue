@@ -120,7 +120,7 @@ export default {
 .navbar-light .navbar-nav .active>.nav-link { color: #42b983; }
 .brand-name {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #2c3e50;
 }
 </style>

@@ -25,10 +25,10 @@
         </div>
         <div class="col-md-4" data-aos="fade-up">
           <div class="card">
-            <img class="card-img-top" src="../assets/programme/hackathon-back.png" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/latest-1-back.jpg" alt="" width="100%" height="190">
             <div class="card-body">
-              <h5 class="card-title">각종 대회</h5>
-              <p class="card-text">해커톤, 알고리즘 대회, 교내 경진대회의 적극적인 참여를 추천해요!</p>
+              <h5 class="card-title">최신 기술스택</h5>
+              <p class="card-text">정신없이 쏟아져 나오는 최신 기술들.. 중요 키워드를 통해 핵심적인 내용을 캐치해요! </p>
             </div>
           </div>
         </div>
@@ -39,10 +39,10 @@
       <div class="row">
         <div class="col-md-6" data-aos="fade-up">
           <div class="card">
-            <img class="card-img-top" src="../assets/programme/latest-1-back.jpg" alt="" width="100%" height="190">
+            <img class="card-img-top" src="../assets/programme/hackathon-back.png" alt="" width="100%" height="190">
             <div class="card-body">
-              <h5 class="card-title">최신 기술스택</h5>
-              <p class="card-text">정신없이 쏟아져 나오는 최신 기술들.. 중요 키워드를 통해 핵심적인 내용을 캐치해요! </p>
+              <h5 class="card-title">각종 대회</h5>
+              <p class="card-text">해커톤, 알고리즘 대회, 교내 경진대회의 적극적인 참여를 추천해요!</p>
             </div>
           </div>
         </div>
@@ -94,6 +94,7 @@ export default {
 
 .card-floor {
   width: 100%;
+  padding: 0 20px;
 }
 .card {
   position: relative;
@@ -131,5 +132,10 @@ export default {
 }
 .card-title {
   font-weight: bold;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .card-floor:nth-of-type(2) { padding-left: 100px; padding-right: 100px;  }
 }
 </style>

@@ -40,6 +40,7 @@ export default {
 <style scoped>
 #apply {
   display: table;
+  padding: 80px 0px;
   width: 100%;
   height: 100vh;
 }
@@ -70,7 +71,7 @@ export default {
   color: #fff;
 }
 .apply-box:hover .apply-box-frame {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .apply-box:hover .apply-box-frame::before {
   display: block;

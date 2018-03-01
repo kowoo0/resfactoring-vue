@@ -6,7 +6,7 @@
   <div class="mobile-frame" data-aos="fade-right" data-aos-duration="800">
     <div class="out-frame">
       <div class="in-frame">
-        <img src="../assets/activity/syubot.png" width="100%" height="100%" />
+        <img src="../assets/activity/syubot.jpg" width="100%" height="100%" />
       </div>
     </div>
   </div>
