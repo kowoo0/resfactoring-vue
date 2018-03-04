@@ -59,6 +59,7 @@
     </div>
 
     <h4 class="programme-footer">#세미나는 한 달에 한번씩 진행</h4>
+    <h4 class="programme-footer">#참여는 자유롭게</h4>
 
   </div>
 </section>
@@ -79,7 +80,7 @@ export default {
 <style scoped>
 #programme {
   padding-top: 8vh;
-  padding-bottom: 8vh;
+  padding-bottom: 6vh;
 }
 .programme-header {
   padding-top: 30px;
@@ -87,11 +88,11 @@ export default {
   font-family: 'Nanum Pen Script', cursive;
 }
 .programme-footer {
-  margin-top: 20px;
+  margin-top: 30px;
   padding-left: 10px;
   color: #42b983;
 }
-
+.programme-footer:nth-of-type(2) { margin-top: 12px; }
 .card-floor {
   width: 100%;
   padding: 0 20px;
@@ -136,6 +137,6 @@ export default {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  .card-floor:nth-of-type(2) { padding-left: 100px; padding-right: 100px;  }
+  .card-floor:nth-of-type(2) { padding-left: 120px; padding-right: 120px;  }
 }
 </style>

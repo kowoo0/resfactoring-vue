@@ -55,7 +55,7 @@ export default {
 <style scoped>
 #activity {
   width: 100%;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .activity-header {
   margin-bottom: 20px;

@@ -1,14 +1,14 @@
 <template>
 <div>
   <div class="apply-btn-wrapper">
-    <div class="apply-btn">
+    <a class="apply-btn" :href="applyLink">
       <img class="apply-img" src="../assets/apply/google-form.png" width="20" height="20" alt="google-form" />
       <span class="apply-txt">APPLY</span>
-    </div>
-    <div class="apply-btn">
+    </a>
+    <a class="apply-btn" :href="gitLink">
       <img class="apply-img" src="../assets/apply/github.svg" width="20" height="20" />
       <span class="apply-txt">GITHUB</span>
-    </div>
+    </a>
   </div>
 </div>
 </template>
@@ -16,6 +16,12 @@
 <script>
 export default {
   name: 'ApplyButton',
+  data: function() {
+    return { 
+      applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdP1I0RaZ9ViLgoTo-6j-2DACiTPwNpQRynS-tcMpRkmAx_2w/viewform?usp=sf_link/',
+      gitLink: 'https://github.com/kkodu/resfactoring-vue/'
+    };
+  }
 }
 </script>
 

@@ -20,8 +20,8 @@ export default {
 footer {
   width: 100%;
   height: 80px;
-  background: darkturquoise;
   opacity: 0.9;
+  background: #f9f9f9;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -36,12 +36,21 @@ footer {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; 
+
+  -webkit-box-shadow: 0px -2px 2px 0px aquamarine;
+  -moz-box-shadow: 0px -2px 2px 0px aquamarine;
+  box-shadow: 0px -2px 2px 0px aquamarine;
 }
 .footer-txt {
   margin: 0;
-  color: whitesmoke;
+  color: darkturquoise;
   font-weight: bold;
   font-family: 'Nanum Pen Script', cursive;  
   text-align: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .footer-txt { font-size: 1.2rem; }
 }
 </style>

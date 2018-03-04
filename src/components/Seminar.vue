@@ -23,6 +23,14 @@
       </div>
     </swiper-slide>
     <swiper-slide class="swiper-item">
+      <img src="../assets/activity/icpc.jpg"
+        width="100%" height="100%" alt="icpc" />
+      <div class="dark-cover"></div>
+      <div class="slide-desc">
+        <h3>9월 ICPC 알고리즘대회 참여</h3>
+      </div>
+    </swiper-slide>
+    <swiper-slide class="swiper-item">
       <div class="dark-cover"></div>
       <div class="slide-desc">
         <h2>추가될 예정입니다</h2>

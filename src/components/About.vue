@@ -62,6 +62,7 @@ export default {
   height: 100vh;
 
   font-family: 'Noto Sans KR', sans-serif;
+  overflow: hidden;
 }
 .about-body {
   display: table-cell;

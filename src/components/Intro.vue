@@ -44,6 +44,11 @@ export default {
   background-repeat: no-repeat;
   
   text-align: center;
+  overflow: hidden;
+
+  -webkit-box-shadow: 0px 3px 5px 0px aquamarine;
+  -moz-box-shadow: 0px 3px 5px 0px aquamarine;
+  box-shadow: 0px 3px 5px 0px aquamarine;
 }
 .intro-cover-dark {
   z-index: 1;
