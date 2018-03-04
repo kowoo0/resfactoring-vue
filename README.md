@@ -1,21 +1,32 @@
-# resfactoring-vue
+# 리스펙토링(리펙) 2018년 2기
+삼육대 컴과 개발동아리로, 과내 최고의 개발자 커뮤니티를 지향합니다. 우리와 함께 같이 배우고, 성장해요!
 
-> https://resfactoring.herokuapp.com
+> 홈페이지: https://resfactoring.herokuapp.com
 
-## Build Setup
+> 페북그룹: https://www.facebook.com/groups/124023688174089/
 
-``` bash
-# install dependencies
-npm install
+> 2017년 OT자료: https://www.slideshare.net/JungHoonLee41/ot-76610993
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 목표
+1. 컴과 내 왕성한 개발활동, 교내외 공모전 참가
+2. 최고의 컴과 개발자 모임을 위해 우수한&열정적인 학우 모집(매년 3~4월)
+3. 매달 세미나, 격주 스터디 활동
+4. 고학년의 성장, 저학년의 갈피잡기, 개발흥미갖기
 
-# build for production with minification
-npm run build
+## 리펙 채널
+1. 페이스북 그룹 : 동아리공지, 대외활동 공유(해커톤, 공모전), 코드 질문 등
+2. 카카오톡 단톡 : 일상 소통, 포인터를 통한 공유
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 대략 일정
+* 서류모집 : 3월 5일(월) ~ 3월 16일(금) 자정까지
+* 멤버공지 : 3월 17일(토) ~ 3월 18일(일)중에 카톡공지
+* 가벼운 OT : 3월 20일(화) `프레젠테이션 있을 예정`
+* GIT 세미나  스터디 구성 : 4월 중간시험보기전
+* 5월 세미나부터는 추후공지
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 아무말
+리펙은 개발에 흥미가 있는 분이라면 모두 환영입니다! 하지만 제가 웹 프로그래밍을 중점적으로 공부하기 때문에 다른 분야는 세미나 세션에서 기대하기 힘들 수 있습니다. 그렇지만 만약 적극적으로 원하는 분야의 세션을 희망한다면 부족할지라도 열심히 준비해서 세션을 열도록 하겠습니다!
+
+2017년 3학년 때 처음 코딩을 배우고 흥미를 갖을 수 있었던 것은 리펙 1기 회장이었던 12학번 이정훈형 때문이었습니다~ 이처럼 학우들이 개발에 흥미를 느낄 수 있도록 이끌어주는 사람이 있는게 매우 중요하다고 생각합니다. 그래서 리펙은 앞으로도 멤버들이 서로 다양한 정보를 공유하고 서로 이끌어주어 각자가 원하는 분야로 나아갈 수 있는 그런 동아리가 되기를 희망합니다.
+
+활동은 매우 자유로운 분위기로 진행됩니다! 감사합니다!!
