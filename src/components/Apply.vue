@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <div class="apply-txt">
         <h1 class="apply-date">2기 모집기간</h1>
-        <h1 class="apply-date">3월 5일 ~ 3월 14일</h1>
+        <h1 class="apply-date">3월 5일(월) ~ 3월 16일(금)</h1>
         <div class="apply-box-cover">
           <a class="apply-box" :href="applyLink" target="_blank">
             <div class="apply-box-frame">
